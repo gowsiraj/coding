@@ -1,0 +1,18 @@
+var srt = "I am shrey";
+var split = srt.split("");
+console.log(split);
+var output ="";
+var vowels=/[a,e,i,o,u]/i;
+for(var i=0;i<split.length;i++)
+{
+  if(!vowels.test(split[i]))
+  {
+    output=output+split[i];
+  }
+}
+console.log(output);
+
+Sample Input :
+I am shrey 
+Sample Output :
+ m shry
