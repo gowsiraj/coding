@@ -1,0 +1,18 @@
+1.find length without space.
+var array="Lorem Ipsum";
+var output="";
+for(var i=0;i<array.length;i++)
+{
+  if(array[i]!==" ")
+  {
+    output=output+array[i];
+  }
+}
+console.log(output.length);
+
+
+Sample Input :
+Lorem Ipsum
+Sample Output :
+10
+-----------------------------------------------
